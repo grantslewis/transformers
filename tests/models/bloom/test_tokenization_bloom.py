@@ -160,4 +160,3 @@ class BloomTokenizationTest(TokenizerTesterMixin, unittest.TestCase):
         tokens_w_prefix = tokenizer_w_prefix.tokenize("Hey")
         tokens_wo_prefix = tokenizer_wo_prefix.tokenize("Hey")
         self.assertNotEqual(tokens_w_prefix, tokens_wo_prefix)
-
